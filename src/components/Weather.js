@@ -36,7 +36,7 @@ const Weather = () => {
 
 
                 {!city ? (
-                    <p className="errorMsg">No data Found</p>
+                    <p className="errorMsg">No Result Found</p>
                 ) : (
 
 
