@@ -11,6 +11,7 @@ const Weather = () => {
     const [search, setSearch] = useState("Noida");
 
     useEffect(() => {
+//         fApi our fn name
         const fetchApi = async () => {
 
             const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=d74fe0d8a865bb0aad0367e1a379b82c`
