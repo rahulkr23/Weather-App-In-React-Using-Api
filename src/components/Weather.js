@@ -7,7 +7,7 @@ const Weather = () => {
     // city is initial value
     //setCity is convention
 
-    const [city, setCity] = useState(null);
+    const [city, setCity] = useState("");
     const [search, setSearch] = useState("Noida");
 
     useEffect(() => {
