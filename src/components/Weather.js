@@ -39,7 +39,7 @@ const Weather = () => {
                         onChange={(event) => { setSearch(event.target.value) }} />
                 </div>
 
-
+// ternary operator use
                 {!city ? (
                     <p className="errorMsg">No Result Found</p>
                 ) : (
