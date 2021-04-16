@@ -35,6 +35,7 @@ const Weather = () => {
                         value={search}
 
                         className="inputFeild"
+//         event is obj
                         onChange={(event) => { setSearch(event.target.value) }} />
                 </div>
 
