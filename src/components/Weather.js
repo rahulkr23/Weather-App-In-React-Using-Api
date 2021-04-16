@@ -1,4 +1,6 @@
-import React, { useEffect, useState } from 'react';
+// if run page first time useEff access main application
+
+import React, { useEffect, useState } from 'react'; 
 import './css/style.css';
 
 const Weather = () => {
